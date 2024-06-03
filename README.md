@@ -6,6 +6,22 @@ This project utilizes Logistric Regression, Linear Regression, KNearest Neighbor
 
 The data used in the program was found on Kaggle, which supplied historical stock and ETF data dating all the way up to 2017. I mention in the conclusion in the jupyter notebook that more data can be uploaded, formatted, and used to make the datasets bigger and more recent. 
 
+### Findings (Found in Jupyter Notebook)
+Iterating through the data, we find that every time we make a range for the next close using the data from the previous day, we get it right. For instance, the closes that the iterations are predicting turned out to be, in order (**FOR MSFT STOCK**):
+* 11/02/2017 closed at: 83.18 - Between 82.96 and 84.24 - Correct
+* 11/03/2017 closed at: 83.18 - Between 82.71 and 84.00 - Correct
+* 11/04/2017 closed at: 84.05 - Between 82.43 and 83.71 - Wrong
+* 11/05/2017 closed at: 84.14 - Between 83.28 and 84.56 - Correct
+* 11/06/2017 closed at: 84.47 - Between 83.20 and 84.48 - Correct
+* 11/07/2017 closed at: 84.26 - Between 83.77 and 85.06 - Correct
+* 11/08/2017 closed at: 84.56 - Between 83.53 and 84.81 - Correct
+* 11/09/2017 closed at: 84.09 - Between 83.55 and 84.83 - Correct
+* 11/10/2017 closed at: 83.87 - Between 82.61 and 83.89 - Correct
+* (Found Online) 11/11/2017 closed at: 83.93 - Between 82.89 and 84.17 - Correct
+
+Our findings here show us our model seems to be right a lot of the time. However, we do see that we found one date which was wrong, showing that the model isn't always 100% correct, but rather, 0.999% correct.
+
+
 ### Visualization of Model Performances
 Below, I have attatched the graphs that the program produces to show how the model performances stack up against each other:
 
