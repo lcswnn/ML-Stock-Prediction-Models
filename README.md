@@ -27,7 +27,7 @@ Below, I have attatched the graphs that the program produces to show how the mod
 #### TSLA Stock Model Performances
 ![tsla-bar-graph](https://github.com/lcswnn/ML-Stock-Prediction-Models/assets/118494460/ead567f1-6ab3-4990-8fa3-b406c7be2067)
 
-### Conclusions Gathered From Program (Also found in Jupyter Notebook)
+### Conclusions (Also found in Jupyter Notebook)
 1. There are different results for different stocks. When it comes to AAPL and MSFT, we find that the models do better. This could be do to less volatility in their prices listed in the data sets. When we choose a stock like AMZN for instance, we find that the models don't fare as well, again, possibly due to volatility and unpredictiveness in the stock price.
 
 2. Linear Regression trumps all other models in this use case. We find that no matter what stock you pass in into the program, it is always predicting with 0.98 accuracy or better. It was consistent in all cases I have tested with it. This would be due to the linear-like path stocks tend to take as time goes on. You can look at all stock charts and see this visually. The consistency of the stock prices helps with this, as we find that it is a gradual climb or fall for many stocks.
