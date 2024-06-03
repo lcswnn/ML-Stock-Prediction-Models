@@ -54,3 +54,7 @@ Below, I have attatched the graphs that the program produces to show how the mod
 
 5. If given more data, especially with the recent boom in AI, I think we would find the models performing differently. This historical data is updated only to 2017, so more recent data and recent trends would make the models produce different results. For instance, one company who has felt the effects of the AI boom for the better would be NVDA. Here, the highest their price had got to was 213.08. Now, the stock is over 1,000. The models currently do not take in news and other data of that kind, meaning they wouldn't know an AI boom has happened. This would affect the accuracy of the models and their predictions would be off, making their scores lower.
 
+### Future Additions:
+* Web Scraping for larger/updated dataset
+* Application/server creation for more than one user to use app
+* Ability for program to tell you when to/not to buy a stock based on predictive close price
