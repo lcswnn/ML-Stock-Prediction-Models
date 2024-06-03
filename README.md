@@ -27,3 +27,14 @@ Below, I have attatched the graphs that the program produces to show how the mod
 #### TSLA Stock Model Performances
 ![tsla-bar-graph](https://github.com/lcswnn/ML-Stock-Prediction-Models/assets/118494460/ead567f1-6ab3-4990-8fa3-b406c7be2067)
 
+### Conclusions Gathered From Program (Also found in Jupyter Notebook)
+1. There are different results for different stocks. When it comes to AAPL and MSFT, we find that the models do better. This could be do to less volatility in their prices listed in the data sets. When we choose a stock like AMZN for instance, we find that the models don't fare as well, again, possibly due to volatility and unpredictiveness in the stock price.
+
+2. Linear Regression trumps all other models in this use case. We find that no matter what stock you pass in into the program, it is always predicting with 0.98 accuracy or better. It was consistent in all cases I have tested with it. This would be due to the linear-like path stocks tend to take as time goes on. You can look at all stock charts and see this visually. The consistency of the stock prices helps with this, as we find that it is a gradual climb or fall for many stocks.
+
+3. The worst performing model would be logistic regression. Even though it is strong in other use cases, here, it is not. Again, looking at stock charts, we find that they take more of a linear path, not a logistic one. In the future when more data is available and if the market seems to plateau, showing a logistic path, then we may find this one working in the future, but not at this time.
+
+4. KNeighbors, Decision Trees, Neural Networks, and SVC models all seem to perform based on what stock is being passed into the program. If it is a stock that is not a volatile, or doesn't change in price drastically, then we find that the models tend to perform decently, sitting in the 0.88-0.61 range. However, when we find a stock that would be considered to be more volatile or more drastic in its price changes, we find that the models don't perform as well, somestimes even sitting below 0.10. AAPL bar graphs and MSFT bar graphs show the models performing well, and the FB (now META) and AMZN charts show the model performing poorly.
+
+5. If given more data, especially with the recent boom in AI, I think we would find the models performing differently. This historical data is updated only to 2017, so more recent data and recent trends would make the models produce different results. For instance, one company who has felt the effects of the AI boom for the better would be NVDA. Here, the highest their price had got to was 213.08. Now, the stock is over 1,000. The models currently do not take in news and other data of that kind, meaning they wouldn't know an AI boom has happened. This would affect the accuracy of the models and their predictions would be off, making their scores lower.
+
