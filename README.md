@@ -10,7 +10,7 @@ The data used in the program was found on Kaggle, which supplied historical stoc
 Iterating through the data, we find that every time we make a range for the next close using the data from the previous day, we get it right. For instance, the closes that the iterations are predicting turned out to be, in order (**FOR MSFT STOCK**):
 * 11/02/2017 closed at: 83.18 - Between 82.96 and 84.24 - Correct
 * 11/03/2017 closed at: 83.18 - Between 82.71 and 84.00 - Correct
-* 11/04/2017 closed at: 84.05 - Between 82.43 and 83.71 - Wrong
+* 11/04/2017 closed at: 84.05 - Between 82.43 and 83.71 - Wrong - Higher
 * 11/05/2017 closed at: 84.14 - Between 83.28 and 84.56 - Correct
 * 11/06/2017 closed at: 84.47 - Between 83.20 and 84.48 - Correct
 * 11/07/2017 closed at: 84.26 - Between 83.77 and 85.06 - Correct
