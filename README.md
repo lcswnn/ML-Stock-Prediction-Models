@@ -1,6 +1,6 @@
 # Using Machine Learning to Predict Stock Prices
 ### Description
-This project utilizes Logistric Regression, Linear Regression, KNearest Neighbors, Decision Tree, MLP, and SVC Machine Learning models to predict the stock prices of stocks. I was able to not only predict with the models, but also use pandas to sort the data and matplotlib to later plot the graphs of the model performances when predicting the prices.
+This project utilizes Logistric Regression, Linear Regression, KNearest Neighbors, Decision Tree, MLP, and SVC Machine Learning models to predict the close prices of stocks given current Open, High, and Low prices. I was able to not only predict with the ML models, but also use pandas to sort and matplotlib to plot the data and return graphs of the model performances when predicting the prices.
 
 **Libraries Used**: SKLearn (RandomForestClassifier, train_test_split, LogisticRegression, LinearRegression, KNeighborsClassifier, DecisionTreeClassifier, MLPClassifier, SVC), Pandas, Matplotlib, and Numpy.
 
